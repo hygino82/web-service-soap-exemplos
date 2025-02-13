@@ -46,7 +46,7 @@ public class SoapClient {
         SOAPElement soapBodyElem = soapBody.addChildElement("hello", myNamespace);
         //o child name foi criado sem namespace
         SOAPElement soapBodyElem1 = soapBodyElem.addChildElement("name");
-        soapBodyElem1.addTextNode("Alexandre");
+        soapBodyElem1.addTextNode("Adroaldo");
     }
 
     private static SOAPMessage createSOAPRequest(String soapAction) throws Exception {
